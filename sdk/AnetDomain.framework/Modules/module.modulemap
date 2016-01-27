@@ -1,0 +1,10 @@
+framework module AnetDomain {
+  umbrella header "AnetDomain.h"
+
+  export *
+  module * { export * }
+}
+
+module AnetDomain.Swift {
+    header "AnetDomain-Swift.h"
+}
